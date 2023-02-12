@@ -1,0 +1,59 @@
+.centered
+{
+    text-align: center;
+}
+
+.large
+{
+    font-size: large;
+}
+
+.medium
+{
+    font-size: medium;
+}
+
+.small
+{
+    font-size: small;
+}
+
+.indent
+{
+    margin-left: 200pt;
+    margin-right: 200pt;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    border-radius: 0px;
+}
+
+h1
+{
+    margin-left: 200pt;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    border-radius: 0px;
+}
+
+p
+{
+    margin-left: 200pt;
+    margin-right: 200pt;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    border-radius: 0px;
+}
+
+table
+{
+    background-color: yellow;
+}
+
+
+body
+{
+    color: silver;
+    background-color: black;
+}
+

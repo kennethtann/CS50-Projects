@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Location Finder</title>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+
+
+
+        <script>
+
+            //blinking for fun LOL
+            function blink()
+            {
+                let body = document.querySelector('body');
+                if (body.style.visibility == 'hidden')
+                {
+                    body.style.visibility = 'visible';
+                }
+                else
+                {
+                    body.style.visibility = 'hidden';
+                }
+            }
+
+            window.setInterval(blink, 900);
+
+        </script>
+
+    </head>
+
+
+
+    <body>
+
+
+
+        <h1 class="small"> About this webpage </h1>
+        <p class="small">
+            This webpage obtains your location and presents them in coordinates, from which you can input to search bar to get your location in graphical form.
+        </p>
+
+
+
+
+        <div class="centered">
+
+        <form action="https://www.google.com/maps/@search" class="mt-4" method="get">
+            <input autocomplete="off" autofocus class="form-control form-control-lg mb-4 mx-auto w-50" name="q" placeholder="Input Co-ordinates Here" type="search">
+            <button class="btn btn-light" type="submit">Display on Map</button>
+        </form>
+
+        </div>
+
+        <p></p>
+
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Country</th>
+                    <th>Capital</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Singapore</td>
+                    <td>Singapore</td>
+                </tr>
+                <tr>
+                    <td>United States</td>
+                    <td>Washington D.C.</td>
+                </tr>
+                <tr>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <footer class="small">
+            Copyright &#169; Kenneth
+        </footer>
+
+    </body>
+</html>
